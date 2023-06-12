@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility*/
+
+.container{
+  background-color: rgb(254, 254, 253);
+  max-width: 1200px;
+  margin: 0;
+  padding-bottom: 100px;
+  
+}
+main{
+  padding: 33px;
+  margin-bottom:  100px;
+}
+.title{
+  color: rgb(225, 38, 163);
+  font-size: 40px;
+  font-weight: 900;
+  ;
+}
+img{
+  height: 80px;
+  background-color: black;
+  float: left;
+  margin-right: 10px;
+}
+h5{
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body{
+  background-color: rgb(30, 30, 39);
+  max-width: 1080px;
+  height: 200px;
+  color: white;
+  margin: 2% 10%;
+  font-family: 'Fredoka', sans-serif;
+}
+
+section{
+  margin: 12px 36px;
+
+} 
+
+header{
+  text-align: center;
+  margin: 20px 50px;
+  padding-top: 35px;
+  
+  
+}
+.column{
+  width: calc(100% /3 - 12px);
+  float: left;
+  margin-right: 12px;
+  background-color: black;
+}
+.box{
+  float: left;
+ 
+}
+.email{
+  font-size: 13px;
+  color: rgb(63, 162, 162);
+}
