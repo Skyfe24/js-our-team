@@ -35,36 +35,53 @@ const ourTeam = [
 
 
 
-const allBarnett = document.getElementsByClassName('barnett')
-const barnettname = document.getElementsByClassName('barnettname')
-const barnettProfession = document.getElementsByClassName('barnettprofession')
-barnettname.innerHTML = ourTeam[0].memberName;
+const allBarnett = document.getElementsByClassName('barnett');
+const barnettname = document.getElementsByClassName('barnettname')[0];
+const barnettProfession = document.getElementsByClassName('barnettprofession')[0];
+const barnettImage =  document.getElementsByClassName('barnettjpg')[0];
+barnettname.innerHTML = ourTeam[0].memberName; 
 barnettProfession.innerHTML = ourTeam[0].role;
-allBarnett.innerHTML = ourTeam[0].memberImage;
+barnettImage.innerHTML = ourTeam[0].memberImage;
 
-const allCaroll = document.getElementsByClassName('caroll')
-const carollname = document.getElementsByClassName('carollname')
-const carollProfession = document.getElementsByClassName('carollprofession')
+const allCaroll = document.getElementsByClassName('caroll');
+const carollname = document.getElementsByClassName('carollname')[0];
+const carollProfession = document.getElementsByClassName('carollprofession')[0];
+const carollImage =  document.getElementsByClassName('carolljpg')[0];
 carollname.innerHTML = ourTeam[1].memberName;
 carollProfession.innerHTML = ourTeam[1].role;
-allCaroll.innerHTML = ourTeam[1].memberImage;
+carollImage.innerHTML = ourTeam[1].memberImage;
 
-const allWalter = document.getElementsByClassName('walter')
-const waltername = document.getElementsByClassName('waltername')
-const walterProfession = document.getElementsByClassName('walterprofession')
+const allWalter = document.getElementsByClassName('walter');
+const waltername = document.getElementsByClassName('waltername')[0];
+const walterProfession = document.getElementsByClassName('walterprofession')[0];
+const walterImage =  document.getElementsByClassName('walterjpg')[0];
+waltername.innerHTML = ourTeam[2].memberName;
+walterProfession.innerHTML = ourTeam[2].role;
+walterImage.innerHTML = ourTeam[2].memberImage;
 
-const allLopez = document.getElementsByClassName('lopez')
-const lopezname = document.getElementsByClassName('lopezname')
-const lopezProfession = document.getElementsByClassName('lopezprofession')
+const allLopez = document.getElementsByClassName('lopez');
+const lopezname = document.getElementsByClassName('lopezname')[0];
+const lopezProfession = document.getElementsByClassName('lopezprofession')[0];
+const lopezImage =  document.getElementsByClassName('lopezjpg')[0];
+lopezname.innerHTML = ourTeam[3].memberName;
+lopezProfession.innerHTML = ourTeam[3].role;
+lopezImage.innerHTML = ourTeam[3].memberImage;
 
-const allEstrada = document.getElementsByClassName('estrada')
-const estradaname = document.getElementsByClassName('estradaname')
-const estradaProfession = document.getElementsByClassName('estradaprofession')
+const allEstrada = document.getElementsByClassName('estrada');
+const estradaname = document.getElementsByClassName('estradaname')[0];
+const estradaProfession = document.getElementsByClassName('estradaprofession')[0];
+const estradaImage =  document.getElementsByClassName('estradajpg')[0];
+estradaname.innerHTML = ourTeam[4].memberName;
+estradaProfession.innerHTML = ourTeam[4].role;
+estradaImage.innerHTML = ourTeam[4].memberImage;
 
-const allRamos = document.getElementsByClassName('ramos')
-const ramosname = document.getElementsByClassName('ramosname')
-const ramosProfession = document.getElementsByClassName('ramosprofession')
-
+const allRamos = document.getElementsByClassName('ramos');
+const ramosname = document.getElementsByClassName('ramosname')[0];
+const ramosProfession = document.getElementsByClassName('ramosprofession')[0];
+const ramosImage =  document.getElementsByClassName('ramosjpg')[0];
+ramosname.innerHTML = ourTeam[5].memberName;
+ramosProfession.innerHTML = ourTeam[5].role;
+ramosImage.innerHTML = ourTeam[5].memberImage;
 
 // Wayne Barnett |	Founder & CEO        |	wayne-barnett-founder-ceo.jpg
 // Angela Caroll |	Chief Editor         |	angela-caroll-chief-editor.jpg
